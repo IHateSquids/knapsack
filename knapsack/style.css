@@ -1,0 +1,99 @@
+body{
+		    background-size: cover;
+		    overflow-x: hidden;
+		    scroll-behavior: smooth;
+		}
+
+		.headarea h1{  
+		    margin: 10px 0px;
+		    text-align: center;
+		}
+
+		#ans{
+		    background-color: rgba(44, 86, 47, 0.8);
+		    color: white;
+			width: max-content;
+			height: max-content;
+		    padding: 10px;
+		    border-radius: 10px;
+		}
+
+		#data, #data2{
+			width: max-content;
+			height: max-content;
+		    margin: auto;
+			margin-top: 20px;
+		    transition-duration: 1s;
+		}
+
+		#data2 table tr td{
+		    background-color: rgba(153, 255, 153, 0.95);
+		    text-align: center;
+		    font-size: large;
+		    font-weight: bold;
+		    height: 60px;
+		    width: 60px;
+		    border: 2px solid black;
+		}
+
+		#data2 table tr th{
+		    background-color: rgba(100, 100, 100, 0.9);
+		    color: white;
+		    text-align: center;
+		    font-size: small;
+		    font-weight: bold;
+		    height: 60px;
+		    width: 60px;
+		    border: 2px solid black;
+		    padding: 2px;
+		}
+
+		.item-header {
+		    background-color: rgba(70, 130, 180, 0.9) !important;
+		    color: white;
+		    font-size: 10px;
+		    padding: 1px;
+		}
+
+		#itemTable table {
+		    margin: auto;
+		}
+
+		#itemTable table tr td, #itemTable table tr th {
+		    background-color: rgba(173, 216, 230, 0.9);
+		    text-align: center;
+		    font-size: medium;
+		    font-weight: bold;
+		    padding: 8px;
+		    border: 1px solid black;
+		}
+
+		.current-step {
+		    background-color: rgba(255, 165, 0, 0.8) !important;
+		    animation: pulse 1s infinite;
+		}
+
+		@keyframes pulse {
+		    0% { opacity: 0.7; }
+		    50% { opacity: 1; }
+		    100% { opacity: 0.7; }
+		}
+
+		.customB{
+		    margin: auto;
+		    margin-top: 15px;
+		    width: fit-content;
+		}
+
+		.cola{
+		    background-color: rgba(44, 86, 47, 1) !important;
+		    color: white;
+		}
+
+		.colb{
+		    background-color: rgba(255, 223, 13, 0.95) !important;
+		}
+
+		.hide{
+		    visibility: hidden;
+		}
